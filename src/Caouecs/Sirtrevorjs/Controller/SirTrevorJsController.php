@@ -9,9 +9,7 @@
 namespace Caouecs\Sirtrevorjs\Controller;
 
 use Config;
-use Illuminate\Routing\Controller;
-use Illuminate\Foundation\Bus\DispatchesCommands;
-use Illuminate\Foundation\Validation\ValidatesRequests;
+use Controller;
 use Input;
 use Thujohn\Twitter\TwitterFacade as Tweet;
 
@@ -22,9 +20,6 @@ use Thujohn\Twitter\TwitterFacade as Tweet;
  */
 class SirTrevorJsController extends Controller
 {
-
-    use DispatchesCommands, ValidatesRequests;
-
     /**
      * Upload image.
      *
