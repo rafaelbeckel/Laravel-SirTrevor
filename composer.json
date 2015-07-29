@@ -1,12 +1,19 @@
 {
-  "name": "caouecs/sirtrevorjs",
-  "description": "Sir Trevor JS in Laravel project",
+  "name": "rafaelbeckel/sirtrevorjs",
+  "description": "Sir Trevor JS in Laravel 5 project",
   "keywords": ["laravel", "sir trevor js", "sir-trevor-js", "lpm"],
   "license": "MIT",
   "authors": [
     {
+      "name": "rafaelbeckel",
+      "email": "rafael@beckel.com.br",
+      "role": "Developer (fork @ 2.0.6)"
+    },
+    {
       "name": "caouecs",
-      "email": "caouecs@caouecs.net"
+      "email": "caouecs@caouecs.net",
+      "homepage": "https://github.com/caouecs/Laravel-SirTrevorJS",
+      "role": "Original Developer"
     }
   ],
   "require": {
@@ -21,8 +28,8 @@
     "classmap": [
       "test"
     ],
-    "psr-0": {
-      "Caouecs\\Sirtrevorjs\\": "src/"
+    "psr-4": {
+      "Beckel\\Sirtrevorjs\\": "src/"
     }
   }
 }
