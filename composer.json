@@ -1,5 +1,5 @@
 {
-  "name": "rafaelbeckel/sirtrevorjs",
+  "name": "rafaelbeckel/sirtrevor",
   "description": "Sir Trevor JS in Laravel 5 project",
   "keywords": ["laravel", "sir trevor js", "sir-trevor-js", "lpm"],
   "license": "MIT",
@@ -28,8 +28,8 @@
     "classmap": [
       "test"
     ],
-    "psr-4": {
-      "Beckel\\Sirtrevorjs\\": "src/"
+    "psr-0": {
+      "Caouecs\\Sirtrevorjs\\": "src/"
     }
   }
 }
