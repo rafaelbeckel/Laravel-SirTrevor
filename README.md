@@ -1,15 +1,21 @@
 Laravel-SirTrevorJS
 ====================
 
-Integrate the tool [Sir Trevor JS](http://madebymany.github.io/sir-trevor-js/) in a [Laravel 4/5](http://laravel.com) project.
+Integrate the tool [Sir Trevor JS](http://madebymany.github.io/sir-trevor-js/) in a [Laravel 5](http://laravel.com) project.
 
 ## Installation
+
+#### ========== WARNING!!! ===============
+
+I just cloned this repository for a personal project and in the next days I'll make some changes that may break things. **DO NOT USE IT IN PRODUCTION** (unless if you are me). I recommend using original author's repository instead (link below).
+
+I plan to release a stable version with a different API in a near future, but right now I cannot tell exactly when I'll do it.
+
+#### ====================================
 
 This package is available through `Packagist` and `Composer`.
 
  > **For Laravel 5**, use the [branch master](https://github.com/caouecs/Laravel-SirTrevorJS/tree/master) : `"caouecs/sirtrevorjs": "~2.0"`
-
-> **For Laravel 4**, use the [branch laravel4](https://github.com/caouecs/Laravel-SirTrevorJS/tree/laravel4) : `"caouecs/sirtrevorjs": "~1.4"`
 
 ### Aliases
 
