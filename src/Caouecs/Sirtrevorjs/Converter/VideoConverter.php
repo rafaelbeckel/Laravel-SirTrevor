@@ -97,14 +97,14 @@ class VideoConverter extends BaseConverter implements ConverterInterface
     public function __construct($parser, $config, $data)
     {
         if (!is_array($data) || !isset($data['data']['source']) || !isset($data['data']['remote_id'])) {
-            $this->provider = $data['data']['source'];
-            $this->remote_id = $data['data']['remote_id'];
-            $this->caption = array_get($data['data'], 'caption');
-
-        } else {
             $this->provider = 'empty';
             $this->remote_id = '';
             $this->caption = '';
+
+        } else {
+            $this->provider = $data['data']['source'];
+            $this->remote_id = $data['data']['remote_id'];
+            $this->caption = array_get($data['data'], 'caption');
 
         }
 
